@@ -14,13 +14,13 @@ export const Experience = () => {
         <div className="w-full flex w-4/5 min-w-[350px]">
           <Link
             to="/money"
-            className="bg-sky-200 py-4 border m-auto w-1/3 text-center text-xl font-semibold"
+            className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-1/3 text-center text-xl font-semibold"
           >
             I'm new
           </Link>
           <Link
             to="/money"
-            className="bg-sky-200 py-4 border m-auto w-1/3 text-center text-xl font-semibold"
+            className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-1/3 text-center text-xl font-semibold"
           >
             2-4 years
           </Link>
@@ -28,13 +28,13 @@ export const Experience = () => {
         <div className="w-full flex w-4/5 min-w-[350px]">
           <Link
             to="/money"
-            className="bg-sky-200 py-4 border m-auto w-1/3 text-center text-xl font-semibold"
+            className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-1/3 text-center text-xl font-semibold"
           >
             5+ years
           </Link>
           <Link
             to="/money"
-            className="bg-sky-200 py-4 border m-auto w-1/3 text-center text-xl font-semibold"
+            className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-1/3 text-center text-xl font-semibold"
           >
             10+ years
           </Link>

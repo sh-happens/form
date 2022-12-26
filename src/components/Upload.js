@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
+import "../App.css";
 import { Link } from "react-router-dom";
 
 export const Upload = () => {
+  const [selectedFile, setSelectedFile] = useState();
+  const [isFilePicked, setIsFilePicked] = useState(false);
+  const [isSelected, setIsSelected] = useState(false);
+
+  const changeHandler = (event) => {
+    setSelectedFile(event.target.files[0]);
+    setIsSelected(true);
+  };
+
+  const handleSubmission = () => {};
+
   return (
     <div className="bg-[url('/src/assets/rainbow.jpg')] bg-cover w-screen h-screen">
       <section
@@ -10,15 +22,31 @@ export const Upload = () => {
       >
         <h1 className="text-3xl font-bold text-center">Upload your CV</h1>
         <h1 className="text-3xl font-bold text-center">
-          by clicking our Upload button you agree to our compiance rules
+          by clicking our Upload button you agree to our compliance rules
         </h1>
         <div className="w-full flex w-4/5 min-w-[350px]">
-          <Link
-            to="/thanks"
-            className="bg-sky-200 py-4 border m-auto w-2/5 text-center text-xl font-bold"
-          >
-            Upload <br /> button
-          </Link>
+          <input
+            className="custom-file-input"
+            type="file"
+            name="file"
+            onChange={changeHandler}
+          />
+          {isSelected ? (
+            <div>
+              <p>Filename: {selectedFile.name}</p>
+              <p>Filetype: {selectedFile.type}</p>
+              <p>Size in bytes: {selectedFile.size}</p>
+              <p>
+                lastModifiedDate:{" "}
+                {selectedFile.lastModifiedDate.toLocaleDateString()}
+              </p>
+              <Link to="/thanks">
+                <button className="custom-file-submit">Submit</button>
+              </Link>
+            </div>
+          ) : (
+            <p>Select a file to show details</p>
+          )}
         </div>
       </section>
     </div>

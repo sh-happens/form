@@ -14,13 +14,13 @@ export const Fields = () => {
         <div className="w-full flex w-4/5 min-w-[350px]">
           <Link
             to="/exp"
-            className="bg-sky-200 py-4 border m-auto w-1/3 text-center text-xl font-semibold"
+            className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-1/3 text-center text-xl font-semibold"
           >
             E-Com
           </Link>
           <Link
             to="/exp"
-            className="bg-sky-200 py-4 border m-auto w-1/3 text-center text-xl font-semibold"
+            className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-1/3 text-center text-xl font-semibold"
           >
             Banking
           </Link>
@@ -28,13 +28,13 @@ export const Fields = () => {
         <div className="w-full flex w-4/5 min-w-[350px]">
           <Link
             to="/exp"
-            className="bg-sky-200 py-4 border m-auto w-1/3 text-center text-xl font-semibold"
+            className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-1/3 text-center text-xl font-semibold"
           >
             DevOps
           </Link>
           <Link
             to="/exp"
-            className="bg-sky-200 py-4 border m-auto w-1/3 text-center text-xl font-semibold"
+            className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-1/3 text-center text-xl font-semibold"
           >
             SoftwrDev
           </Link>
@@ -42,13 +42,13 @@ export const Fields = () => {
         <div className="w-full flex w-4/5 min-w-[350px]">
           <Link
             to="/exp"
-            className="bg-sky-200 py-4 border m-auto w-1/3 text-center text-xl font-semibold"
+            className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-1/3 text-center text-xl font-semibold"
           >
             Biology
           </Link>
           <Link
             to="/exp"
-            className="bg-sky-200 py-4 border m-auto w-1/3 text-center text-xl font-semibold"
+            className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-1/3 text-center text-xl font-semibold"
           >
             Sales
           </Link>
@@ -56,13 +56,13 @@ export const Fields = () => {
         <div className="w-full flex w-4/5 min-w-[350px]">
           <Link
             to="/exp"
-            className="bg-sky-200 py-4 border m-auto w-1/3 text-center text-xl font-semibold"
+            className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-1/3 text-center text-xl font-semibold"
           >
             HR
           </Link>
           <Link
             to="/exp"
-            className="bg-sky-200 py-4 border m-auto w-1/3 text-center text-xl font-semibold"
+            className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-1/3 text-center text-xl font-semibold"
           >
             Logistic
           </Link>

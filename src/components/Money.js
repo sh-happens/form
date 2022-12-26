@@ -14,14 +14,14 @@ export const Money = () => {
         <div className="w-full flex w-4/5 min-w-[350px]">
           <Link
             to="/upload"
-            className="bg-sky-200 py-4 border m-auto w-2/5 text-center text-xl font-semibold"
+            className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-2/5 text-center text-xl font-semibold"
           >
             48k <br />
             (junior)
           </Link>
           <Link
             to="/upload"
-            className="bg-sky-200 py-4 border m-auto w-2/5 text-center text-xl font-semibold"
+            className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-2/5 text-center text-xl font-semibold"
           >
             65k <br /> (associate)
           </Link>
@@ -29,13 +29,13 @@ export const Money = () => {
         <div className="w-full flex w-4/5 min-w-[350px]">
           <Link
             to="/upload"
-            className="bg-sky-200 py-4 border m-auto w-2/5 text-center text-xl font-semibold"
+            className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-2/5 text-center text-xl font-semibold"
           >
             78k <br /> (experienced)
           </Link>
           <Link
             to="/upload"
-            className="bg-sky-200 py-4 border m-auto w-2/5 text-center text-xl font-semibold"
+            className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-2/5 text-center text-xl font-semibold"
           >
             85k <br /> (senior)
           </Link>
@@ -43,13 +43,13 @@ export const Money = () => {
         <div className="w-full flex w-4/5 min-w-[350px]">
           <Link
             to="/upload"
-            className="bg-sky-200 py-4 border m-auto w-2/5 text-center text-xl font-semibold"
+            className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-2/5 text-center text-xl font-semibold"
           >
             100k+ <br /> (Head-off level)
           </Link>
           <Link
             to="/upload"
-            className="bg-sky-200 py-4 border m-auto w-2/5 text-center text-xl font-semibold"
+            className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-2/5 text-center text-xl font-semibold"
           >
             150k+ <br /> (C-level)
           </Link>
@@ -57,7 +57,7 @@ export const Money = () => {
         <div className="w-full flex w-4/5 min-w-[350px]">
           <Link
             to="/upload"
-            className="bg-sky-200 py-4 border m-auto w-3/5 text-center text-2xl font-bold"
+            className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-3/5 text-center text-2xl font-bold"
           >
             Individual
           </Link>
