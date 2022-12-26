@@ -9,20 +9,20 @@ export const Experience = () => {
       flex-col items-center justify-evenly rounded-[20px] shadow-xl min-w-[350px] p-4 min-h-[400px]"
       >
         <h1 className="text-3xl font-bold text-center">
-          How much Project Experience do you have?
+          Wie viel Projekterfahrung bringst du mit?
         </h1>
         <div className="w-full flex w-4/5 min-w-[350px]">
           <Link
             to="/money"
             className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-1/3 text-center text-xl font-semibold"
           >
-            I'm new
+            Ich bin neu
           </Link>
           <Link
             to="/money"
             className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-1/3 text-center text-xl font-semibold"
           >
-            2-4 years
+            2-4 Jahre
           </Link>
         </div>
         <div className="w-full flex w-4/5 min-w-[350px]">
@@ -30,13 +30,13 @@ export const Experience = () => {
             to="/money"
             className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-1/3 text-center text-xl font-semibold"
           >
-            5+ years
+            5+ Jahre
           </Link>
           <Link
             to="/money"
             className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-1/3 text-center text-xl font-semibold"
           >
-            10+ years
+            10+ Jahre
           </Link>
         </div>
       </section>

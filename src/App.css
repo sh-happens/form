@@ -43,7 +43,6 @@
 .custom-file-input::before {
   content: "Select some files";
   display: inline-block;
-  background: linear-gradient(top, #f9f9f9, #e3e3e3);
   border: 1px solid #999;
   border-radius: 3px;
   padding: 5px 8px;
@@ -58,13 +57,9 @@
 .custom-file-input:hover::before {
   border-color: black;
 }
-.custom-file-input:active::before {
-  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
-}
 
 .custom-file-submit {
   display: inline-block;
-  background: linear-gradient(top, #f9f9f9, #e3e3e3);
   border: 1px solid #999;
   border-radius: 3px;
   padding: 5px 8px;

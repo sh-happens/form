@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 export const Upload = () => {
   const [selectedFile, setSelectedFile] = useState();
-  const [isFilePicked, setIsFilePicked] = useState(false);
   const [isSelected, setIsSelected] = useState(false);
 
   const changeHandler = (event) => {
@@ -12,17 +11,16 @@ export const Upload = () => {
     setIsSelected(true);
   };
 
-  const handleSubmission = () => {};
-
   return (
     <div className="bg-[url('/src/assets/rainbow.jpg')] bg-cover w-screen h-screen">
       <section
         className="h-2/3 w-1/4 bg-white/50 m-auto translate-y-[5%] flex 
       flex-col items-center justify-evenly rounded-[20px] shadow-xl min-w-[350px] p-4 min-h-[600px]"
       >
-        <h1 className="text-3xl font-bold text-center">Upload your CV</h1>
+        <h1 className="text-3xl font-bold text-center">Lad dein CV hoch</h1>
         <h1 className="text-3xl font-bold text-center">
-          by clicking our Upload button you agree to our compliance rules
+          durch das Klicken vom Upload-Button, akzeptierst du unsere
+          Datenschutzerklärung
         </h1>
         <div className="w-full flex w-4/5 min-w-[350px]">
           <input
@@ -45,7 +43,7 @@ export const Upload = () => {
               </Link>
             </div>
           ) : (
-            <p>Select a file to show details</p>
+            <p>wähle eine Datei aus, um Details anzuzeigen</p>
           )}
         </div>
       </section>

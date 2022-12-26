@@ -8,7 +8,7 @@ export const Thanks = () => {
       flex-col items-center justify-evenly rounded-[20px] shadow-xl min-w-[350px] p-4 min-h-[400px]"
       >
         <h1 className="text-3xl font-bold text-center">
-          Thank you for taking part in our interview
+          Danke, dass du an unserem Interview teilgenommen hast!
         </h1>
       </section>
     </div>

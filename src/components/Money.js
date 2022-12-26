@@ -9,7 +9,7 @@ export const Money = () => {
       flex-col items-center justify-evenly rounded-[20px] shadow-xl min-w-[350px] p-4 min-h-[600px]"
       >
         <h1 className="text-3xl font-bold text-center">
-          How much is your pay do you expect from your job?
+          Wie viel Gehalt erwartest du?
         </h1>
         <div className="w-full flex w-4/5 min-w-[350px]">
           <Link
@@ -52,14 +52,6 @@ export const Money = () => {
             className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-2/5 text-center text-xl font-semibold"
           >
             150k+ <br /> (C-level)
-          </Link>
-        </div>
-        <div className="w-full flex w-4/5 min-w-[350px]">
-          <Link
-            to="/upload"
-            className="bg-sky-200 py-4 border border-slate-400 rounded-lg m-auto w-3/5 text-center text-2xl font-bold"
-          >
-            Individual
           </Link>
         </div>
       </section>
